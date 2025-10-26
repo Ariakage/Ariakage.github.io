@@ -6,7 +6,7 @@
   <link href="https://ariakage.github.io/atom.xml" rel="self"/>
   
   <link href="https://ariakage.github.io/"/>
-  <updated>2025-10-26T04:50:38.512Z</updated>
+  <updated>2025-10-26T05:37:58.585Z</updated>
   <id>https://ariakage.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>版本号的定义</title>
+    <link href="https://ariakage.github.io/2025/10/26/SemVer/"/>
+    <id>https://ariakage.github.io/2025/10/26/SemVer/</id>
+    <published>2025-10-26T05:26:13.000Z</published>
+    <updated>2025-10-26T05:37:58.585Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-版本号的基本结构"><a href="#1-版本号的基本结构" class="headerlink" title="1.版本号的基本结构"></a>1.版本号的基本结构</h2><p>最常见的形式是 <strong>语义化版本号(Semantic Versioning, SemVer)</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Major.Minor.Patch</span><br><span class="line">主版本号.次版本号.修订号</span><br></pre></td></tr></table></figure><p>e.g. <code>1.2.3</code></p><ul><li><strong>主版本号(Major)</strong><ul><li>当你做了<strong>不兼容的 API 或重大功能变更</strong>时增加</li><li>例如从 1.x.x 升级到 2.x.x</li></ul></li><li><strong>次版本号(Minor)</strong><ul><li>当你做了<strong>向下兼容的新功能</strong>时增加</li><li>例如从 1.2.3 升级到 1.3.0</li></ul></li><li><strong>修订号(Patch)</strong><ul><li>当你做了<strong>向下兼容的问题修复</strong>时增加</li><li>例如从 1.2.3 升级到 1.2.4</li></ul></li></ul><h2 id="2-可选扩展部分"><a href="#2-可选扩展部分" class="headerlink" title="2.可选扩展部分"></a>2.可选扩展部分</h2><ul><li><strong>先行版本号(Pre-release)</strong><ul><li>用于 alpha、beta、RC 等测试版本</li><li>如1.2.3-alpha.1 | 2.0.0-beta.2</li></ul></li><li><strong>构建元数据(Build metadata)</strong><ul><li>用于标记构建编号或 CI&#x2F;CD 信息</li><li>如1.2.3+20251026.1<br>完整版语义化版本号<code>MAJOR.MINOR.PATCH-PRERELEASE+BUILD</code></li></ul></li></ul><p>个人例子：<br>本人Github上发布的项目<a href="https://github.com/Ariakage/Hashit">Hashit</a>的一个Release可以这么写版本号<br>1.0.0-stable+62198d63<br>其中<code>62198d63</code>是CRC-32</p>]]></content>
+    
+    
+    <summary type="html">介绍版本号的定义</summary>
+    
+    
+    
+    <category term="编程" scheme="https://ariakage.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="版本号" scheme="https://ariakage.github.io/tags/%E7%89%88%E6%9C%AC%E5%8F%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>ATRI ~My Dear Moment~中值得写入作文的句子</title>
