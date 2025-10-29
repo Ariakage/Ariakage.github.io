@@ -6,7 +6,7 @@
   <link href="https://ariakage.github.io/atom.xml" rel="self"/>
   
   <link href="https://ariakage.github.io/"/>
-  <updated>2025-10-26T05:37:58.585Z</updated>
+  <updated>2025-10-29T07:43:16.794Z</updated>
   <id>https://ariakage.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Github Student Developer Pack申请指南</title>
+    <link href="https://ariakage.github.io/2025/10/29/GuideToApplyingForTheGithubStudentDeveloperPack/"/>
+    <id>https://ariakage.github.io/2025/10/29/GuideToApplyingForTheGithubStudentDeveloperPack/</id>
+    <published>2025-10-29T07:40:59.000Z</published>
+    <updated>2025-10-29T07:43:16.794Z</updated>
+    
+    
+    <summary type="html">申请Github Student Developer Pack指南</summary>
+    
+    
+    
+    <category term="申请指南" scheme="https://ariakage.github.io/categories/%E7%94%B3%E8%AF%B7%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="教程" scheme="https://ariakage.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="指南" scheme="https://ariakage.github.io/tags/%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="Github" scheme="https://ariakage.github.io/tags/Github/"/>
+    
+  </entry>
   
   <entry>
     <title>版本号的定义</title>
