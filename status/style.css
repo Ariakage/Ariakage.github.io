@@ -1,3 +1,7 @@
+* {
+    transition: all 0.5s;
+}
+
 html,
 body {
     margin: 0;
@@ -8,6 +12,19 @@ body {
 body {
     background: url(/img/atri_cover1.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+
+/* 页面初始状态：透明 + 向下偏移 */
+.container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* 页面加载后激活状态 */
+body.loaded .container {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .container {
