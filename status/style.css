@@ -1,0 +1,152 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+}
+
+body {
+    background: url(/img/atri_cover1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: block;
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    top: calc(50% - 150px);
+    left: calc(50% - 225px);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    /*border: #FFF solid 3px;*/
+    box-shadow: gray 0px 10px 25px;
+}
+
+/*.container {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    top: calc(50% - 150px);
+    left: calc(50% - 225px);
+    border-radius: 25px;
+    padding: 6px;
+    background: linear-gradient(to right, #ff1060a1, #ffac06a1);
+    box-sizing: border-box;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 22px;
+    box-shadow: gray 0px 10px 25px;
+}*/
+
+.cover {
+    background: #FFF;
+    width: 310px;
+    height: 140px;
+    z-index: 0;
+    border-radius: 25px 0 0 0;
+    display: inline-block;
+}
+
+.cover img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    left: 10px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.cover span {
+    position: relative;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#name {
+    font-size: 30px;
+    top: -40px;
+    left: 20px;
+    z-index: 2;
+}
+
+#side_name {
+    font-weight: 400;
+    color: grey;
+    font-size: 22px;
+    position: relative;
+    left: -20px;
+}
+
+.title {
+    position: relative;
+    top: -140px;
+    left: 310px;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background: rgb(239, 240, 244);
+    border-radius: 0 25px 0 0;
+}
+
+.title span {
+    position: relative;
+    display: block;
+    font-size: 38px;
+    font-weight: 800;
+    left: 25px;
+    top: 10px;
+}
+
+.content {
+    display: block;
+    position: relative;
+    width: 450px;
+    height: 160px;
+    top: -140px;
+    border-radius: 0 0 25px 25px;
+}
+
+.content span {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    background: #b4b4b4;
+    padding: 3px;
+    border-radius: 13px;
+}
+
+#tip1 {
+    top: 10px;
+    left: 10px;
+    background: lightgray;
+}
+
+#tip2 {
+    top: 20px;
+    left: 10px;
+    background: #eef1f5;
+}
+
+#tip3 {
+    top: 30px;
+    left: 10px;
+    background: #c9c9c9;
+}
+
+.content img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: relative;
+    top: -90px;
+    left: 350px;
+}
