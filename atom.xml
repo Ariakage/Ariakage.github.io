@@ -6,7 +6,7 @@
   <link href="https://ariakage.github.io/atom.xml" rel="self"/>
   
   <link href="https://ariakage.github.io/"/>
-  <updated>2025-11-03T14:22:42.837Z</updated>
+  <updated>2025-11-15T11:19:48.828Z</updated>
   <id>https://ariakage.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HomeAssistant教程1 - 注意事项</title>
+    <link href="https://ariakage.github.io/2025/11/15/HomeassistantGuide1/"/>
+    <id>https://ariakage.github.io/2025/11/15/HomeassistantGuide1/</id>
+    <published>2025-11-15T11:16:05.000Z</published>
+    <updated>2025-11-15T11:19:48.828Z</updated>
+    
+    <content type="html"><![CDATA[<article class="message is-danger">                <div class="message-body">            <p>千万不要在HA系统开机期间断电，否则会造成硬盘分区丢失(亲生教训)</p>        </div>    </article><ul><li>Terminal &amp; SSH插件已经换成Advanced SSH &amp; Web Terminal了</li><li>ssh的用户名和密码为网页注册时输入的，SSH Port为27</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;article class=&quot;message is-danger&quot;&gt;
+        
+        &lt;div class=&quot;message-body&quot;&gt;
+            &lt;p&gt;千万不要在HA系统开机期间断电，否则会造成硬盘分区丢失(亲生教训)&lt;/p&gt;
+
+      </summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>DSM-5 P144 TABLE3.3</title>
